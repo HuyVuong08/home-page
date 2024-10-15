@@ -26,7 +26,15 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
-								path="projects/single-project"
+								path="projects/single-project1"
+								element={<ProjectSingle />}
+							/>
+							<Route
+								path="projects/single-project2"
+								element={<ProjectSingle />}
+							/>
+							<Route
+								path="projects/single-project3"
 								element={<ProjectSingle />}
 							/>
 
