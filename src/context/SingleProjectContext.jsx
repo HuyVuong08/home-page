@@ -5,7 +5,7 @@ const SingleProjectContext = createContext();
 
 export const SingleProjectProvider = ({ children }) => {
 	const [singleProjectData, setSingleProjectData] = useState(
-		singleProjectDataJson
+		singleProjectDataJson.commerce
 	);
 
 	return (
