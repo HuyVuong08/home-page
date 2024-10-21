@@ -162,7 +162,8 @@ export const projectsData = [
                 {
                     id: 1,
                     title: 'Website',
-                    details: 'https://github.com/HuyVuong08/weather-app-react',
+                    details: 'github.com/HuyVuong08',
+                    url: 'https://github.com/HuyVuong08/weather-app-react',
                 },
                 {
                     id: 2,

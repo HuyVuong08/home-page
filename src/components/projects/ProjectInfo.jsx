@@ -22,7 +22,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href={singleProjectData.ProjectInfo.CompanyInfo[0].details}
+											href={info.url}
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'
