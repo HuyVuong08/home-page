@@ -1,9 +1,9 @@
 import { useContext } from 'react';
 import SingleProjectContext from '../../context/SingleProjectContext';
 
-const ProjectInfo = () => {
+const ProjectInfo = ({ project }) => {
 	const { singleProjectData } = useContext(SingleProjectContext);
-
+	console.log(project);
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
@@ -13,7 +13,7 @@ const ProjectInfo = () => {
 						{singleProjectData.ProjectInfo.ClientHeading}
 					</p>
 					<ul className="leading-loose">
-						{singleProjectData.ProjectInfo.CompanyInfo.map(
+						{project.ProjectInfo.CompanyInfo.map(
 							(info) => {
 								return (
 									<li
