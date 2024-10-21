@@ -6,13 +6,13 @@ import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
 // Import icons
-import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter, FiYoutube } from 'react-icons/fi';
+import { FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiTwitter, FiYoutube } from 'react-icons/fi';
 
 export const singleProjectData = {
     commerce: {
         ProjectUrl: 'e-commerce',
         ProjectHeader: {
-            title: 'E-Commerce Platform',
+            title: 'E-Commerce Platform 123',
             publishDate: 'Jul 26, 2021',
             tags: 'ReactJS / Context API',
         },
@@ -26,27 +26,17 @@ export const singleProjectData = {
             },
         ],
         ProjectInfo: {
-            ClientHeading: 'About Client',
+            ClientHeading: 'Github Repository',
             CompanyInfo: [
                 {
                     id: 1,
-                    title: 'Name',
-                    details: 'Company Ltd',
-                },
-                {
-                    id: 2,
-                    title: 'Services',
-                    details: 'UI Design & Frontend Development',
-                },
-                {
-                    id: 3,
                     title: 'Website',
                     details: 'https://company.com',
                 },
                 {
-                    id: 4,
+                    id: 2,
                     title: 'Phone',
-                    details: '555 8888 888',
+                    details: '+1 419 409 0908',
                 },
             ],
             ObjectivesHeading: 'Objective',
@@ -54,7 +44,7 @@ export const singleProjectData = {
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
             Technologies: [
                 {
-                    title: 'Tools & Technologies',
+                    title: 'Tech Stack',
                     techs: ['ReactJS', 'useReducer() Hooks', 'React Router Dom', 'Context API', 'JavaScript'],
                 },
             ],
@@ -85,33 +75,15 @@ export const singleProjectData = {
             SocialSharing: [
                 {
                     id: 1,
-                    name: 'Twitter',
-                    icon: <FiTwitter />,
-                    url: 'https://twitter.com/realstoman',
+                    name: 'GitHub',
+                    icon: <FiGithub />,
+                    url: 'https://www.youtube.com/c/StomanStudio',
                 },
                 {
                     id: 2,
-                    name: 'Instagram',
-                    icon: <FiInstagram />,
-                    url: 'https://instagram.com/realstoman',
-                },
-                {
-                    id: 3,
-                    name: 'Facebook',
-                    icon: <FiFacebook />,
-                    url: 'https://facebook.com/',
-                },
-                {
-                    id: 4,
                     name: 'LinkedIn',
                     icon: <FiLinkedin />,
                     url: 'https://linkedin.com/',
-                },
-                {
-                    id: 5,
-                    name: 'Youtube',
-                    icon: <FiYoutube />,
-                    url: 'https://www.youtube.com/c/StomanStudio',
                 },
             ],
         },
