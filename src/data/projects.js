@@ -36,23 +36,34 @@ export const projectsData = [
             },
         ],
         ProjectInfo: {
-            ClientHeading: 'Github Repository',
+            ClientHeading: 'Project Infomation',
             CompanyInfo: [
                 {
                     id: 1,
-                    title: 'Website',
+                    title: 'Demo Website',
+                    details: 'jamievuong.netlify.app',
+                    url: 'https://jamievuong-ecommerce.netlify.app',
+                },
+                {
+                    id: 2,
+                    title: 'GitHub',
                     details: 'github.com/HuyVuong08',
                     url: 'https://github.com/HuyVuong08/shopping-cart-react',
                 },
                 {
-                    id: 2,
-                    title: 'Phone',
-                    details: '+1 419 409 0908',
-                },
-                {
                     id: 3,
                     title: 'Tech Stack',
-                    details: 'ReactJS / Context API',
+                    details: 'ReactJS, NodeJS, Context API',
+                },
+                {
+                    id: 4,
+                    title: 'Email',
+                    details: 'huy.vuongle123@gmail.com',
+                },
+                {
+                    id: 5,
+                    title: 'Phone',
+                    details: '+1 419 409 0908',
                 },
             ],
             ObjectivesHeading: 'Objective',
@@ -158,23 +169,34 @@ export const projectsData = [
             },
         ],
         ProjectInfo: {
-            ClientHeading: 'GitHub Repository',
+            ClientHeading: 'Project Infomation',
             CompanyInfo: [
                 {
                     id: 1,
-                    title: 'Website',
+                    title: 'Demo Website',
+                    details: 'jamievuong.netlify.app',
+                    url: 'https://jamievuong-weather.netlify.app',
+                },
+                {
+                    id: 2,
+                    title: 'GitHub',
                     details: 'github.com/HuyVuong08',
                     url: 'https://github.com/HuyVuong08/weather-app-react',
                 },
                 {
-                    id: 2,
-                    title: 'Phone',
-                    details: '+1 419 409 0908',
-                },
-                {
                     id: 3,
                     title: 'Tech Stack',
-                    details: 'ReactJS / Axios',
+                    details: 'ReactJS, NodeJS, React Bootstrap, Context API',
+                },
+                {
+                    id: 4,
+                    title: 'Email',
+                    details: 'huy.vuongle123@gmail.com',
+                },
+                {
+                    id: 5,
+                    title: 'Phone',
+                    details: '+1 419 409 0908',
                 },
             ],
             ObjectivesHeading: 'Objective',

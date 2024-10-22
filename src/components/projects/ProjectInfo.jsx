@@ -23,9 +23,13 @@ const ProjectInfo = ({ project }) => {
 										<span>{info.title}: </span>
 										<a
 											href={info.url}
+											target="_blank"
+											rel="noreferrer"
 											className={
-												info.title === 'Website' ||
-												info.title === 'Phone'
+												info.title === 'Demo Website' ||
+												info.title === 'Phone' || 
+												info.title === 'Email' ||
+												info.title === 'GitHub'
 													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
 													: ''
 											}
@@ -74,7 +78,7 @@ const ProjectInfo = ({ project }) => {
 									<a
 										key={social.id}
 										href={social.url}
-										target="__blank"
+										rel="noreferrer"
 										aria-label="Share Project"
 										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
 									>
