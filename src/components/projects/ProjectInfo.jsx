@@ -47,20 +47,20 @@ const ProjectInfo = ({ project }) => {
 				{/* Single project objectives */}
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{singleProjectData.ProjectInfo.ObjectivesHeading}
+						{project.ProjectInfo.ObjectivesHeading}
 					</p>
 					<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-						{singleProjectData.ProjectInfo.ObjectivesDetails}
+						{project.ProjectInfo.ObjectivesDetails}
 					</p>
 				</div>
 
 				{/* Single project technologies */}
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{singleProjectData.ProjectInfo.Technologies[0].title}
+						{project.ProjectInfo.Technologies[0].title}
 					</p>
 					<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-						{singleProjectData.ProjectInfo.Technologies[0].techs.join(
+						{project.ProjectInfo.Technologies[0].techs.join(
 							', '
 						)}
 					</p>
@@ -69,10 +69,10 @@ const ProjectInfo = ({ project }) => {
 				{/* Single project social sharing */}
 				<div>
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{singleProjectData.ProjectInfo.SocialSharingHeading}
+						{project.ProjectInfo.SocialSharingHeading}
 					</p>
 					<div className="flex items-center gap-3 mt-5">
-						{singleProjectData.ProjectInfo.SocialSharing.map(
+						{project.ProjectInfo.SocialSharing.map(
 							(social) => {
 								return (
 									<a
@@ -96,9 +96,9 @@ const ProjectInfo = ({ project }) => {
 			{/*  Single project right section */}
 			<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
 				<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
-					{singleProjectData.ProjectInfo.ProjectDetailsHeading}
+					{project.ProjectInfo.ProjectDetailsHeading}
 				</p>
-				{singleProjectData.ProjectInfo.ProjectDetails.map((details) => {
+				{project.ProjectInfo.ProjectDetails.map((details) => {
 					return (
 						<p
 							key={details.id}
